@@ -10,7 +10,7 @@ import './index.css';
 
 import * as serviceWorker from './serviceWorker';
 
-let store = createStore(reducers, applyMiddleware(thunk, logger))
+let store = createStore(reducers, applyMiddleware(thunk))
 
 class App extends Component {
   render(){

@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import { GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow } from "react-google-maps";
-import arrow from '../images/arrow-alt-circle-up-solid.svg';
+
 
 
 class TrackMap extends Component {

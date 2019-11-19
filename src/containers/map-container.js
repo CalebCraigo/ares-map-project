@@ -9,12 +9,10 @@ class MyMap extends Component {
 
   componentDidMount(){
     this.props.loadTracks();
-
 }
 
   render() {
     const fetched = this.props.fetched;
-    console.log(fetched)
     let  reloadTrack = () => {
         this.props.loadTracks();
       };
